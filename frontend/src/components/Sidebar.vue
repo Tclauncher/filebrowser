@@ -44,9 +44,9 @@
 
     <p class="credits">
       <span>
-        <span v-if="disableExternal">File Browser</span>
-        <a v-else rel="noopener noreferrer" target="_blank" href="https://github.com/filebrowser/filebrowser">File Browser</a>
-        <span> {{ version }}</span>
+        <span v-if="disableExternal">Tclauncher</span>
+        <a v-else rel="noopener noreferrer" target="_blank" href="">Tclauncher</a>
+        <span>v.lcCndex</span>
       </span>
       <span><a @click="help">{{ $t('sidebar.help') }}</a></span>
     </p>
